@@ -19,7 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "JavaPractise"
+rootProject.name = "KotlinBasics"
 include(":app")
-include(":lib")
  
