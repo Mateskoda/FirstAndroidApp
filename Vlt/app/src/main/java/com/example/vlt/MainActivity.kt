@@ -30,7 +30,9 @@ class MainActivity : AppCompatActivity() {
             var enteredUsd:String = editText.text.toString()
             var enteredUSDdouble:Double = enteredUsd.toDouble()
 
-            var euros = makeConvers
+            var euros = makeConversion(enteredUSDdouble)
+
+            result.text = "$euros Euros "
 
         }
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
